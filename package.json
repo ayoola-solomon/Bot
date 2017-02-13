@@ -1,0 +1,38 @@
+{
+  "name": "flightbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "facebook",
+    "flight"
+  ],
+  "author": "Solomon Ayoola",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.0",
+    "botkit": "^0.4.10",
+    "command-line-args": "^4.0.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "localtunnel": "^1.8.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.22",
+    "monkii": "^1.2.1",
+    "os": "^0.1.1",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
